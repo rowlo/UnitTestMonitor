@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="new.png">document_plain_new_16.png</file>
+        <file alias="quit.png">exit_16.png</file>
+        <file alias="recent.png">folder3_document_16.png</file>
+        <file alias="add_branch.png">folder_add_24.png</file>
+        <file alias="open.png">folder_document_16.png</file>
+        <file alias="remove_branch.png">folder_remove_24.png</file>
+        <file alias="update.png">refresh_24.png</file>
+        <file alias="view_lcov.png">window_lcov_24.png</file>
+        <file alias="view_unittest.png">window_unittests_24.png</file>
+        <file alias="view_tlog.png">window_tlog_24.png</file>
+        <file alias="passed.png">bullet_ball_green.png</file>
+        <file alias="failed.png">bullet_ball_red.png</file>
+        <file alias="skipped.png">bullet_ball_yellow.png</file>
+        <file alias="deleteTestrun.png">table_column_delete.png</file>
+        <file alias="new128.png">document_plain_new_128.png</file>
+        <file>utm48.png</file>
+    </qresource>
+    <qresource prefix="/style">
+        <file>utm.qss</file>
+    </qresource>
+</RCC>

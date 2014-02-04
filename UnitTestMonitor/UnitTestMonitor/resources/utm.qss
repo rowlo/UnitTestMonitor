@@ -1,0 +1,221 @@
+QMainWindow {
+    background: rgba(255, 253, 252, 255);
+}
+
+#branchTabsToolBar, #tabToolBar {
+    background: rgba(210, 196, 177, 55);
+}
+
+#branchTabsWidget {
+    background: rgba(210, 196, 177, 55);
+}
+
+QToolButton {
+    border: none;
+    background: transparent;
+}
+
+QToolButton:hover {
+    border: 1px solid rgba(210, 196, 177, 155);
+}
+
+QStatusBar {
+    background: rgba(255, 253, 252, 255);
+    color: black;
+}
+
+QStatusBar::item {
+    border: 0px solid black;
+}
+
+#statusBar QComboBox {
+    background: transparent;
+}
+
+#statusBar QLabel {
+    background: transparent;
+    color: black;
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+QPushButton {
+    border: 1px solid rgb(118, 168, 208);
+    background: transparent;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+QPushButton:hover {
+    border: 2px solid rgba(104, 149, 184, 200);
+}
+
+QPushButton:checked {
+    background: rgba(84, 152, 215, 190);
+}
+
+#branchTabsWidget QPushButton {
+    padding: 2px;
+    margin: 0px;
+    border-radius: 0px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+}
+
+#branchTabPage {
+    background: rgba(210, 196, 177, 15);
+    border: 1px solid rgb(118, 168, 208);
+    border-radius: 0px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+QLineEdit, QTextEdit {
+    border: 1px solid rgb(118, 168, 208);
+    background: rgba(255, 253, 252, 127);
+    border-radius: 8px;
+    padding: 2px;
+}
+
+QLineEdit[valid="false"], QTextEdit[valid="false"] {
+    border: 2px solid red;
+    background: rgba(255, 200, 200, 170);
+    border-radius: 8px;
+    padding: 2px;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border: 2px solid rgb(118, 168, 208);
+}
+
+QScrollBar:vertical {
+    border: transparent;
+    background: transparent;
+    width: 10px;
+}
+
+QScrollBar::handle:vertical {
+    border: 1px solid rgb(118, 168, 208);
+    border-radius: 5px;
+    background: rgb(84, 152, 215);
+    min-height: 75px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: transparent;
+    background: transparent;
+}
+
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+    border: transparent;
+    background: transparent;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: transparent;
+}
+
+QScrollBar:horizontal {
+    border: transparent;
+    background: transparent;
+    height: 10px;
+}
+
+QScrollBar::handle:horizontal {
+    border: 1px solid rgb(118, 168, 208);
+    border-radius: 5px;
+    background: rgba(84, 152, 215, 190);
+    min-width: 75px;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    border: transparent;
+    background: transparent;
+}
+
+QScrollBar::up-arrow:horizontal, QScrollBar::down-arrow:horizontal {
+    border: transparent;
+    background: transparent;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: transparent;
+}
+
+QToolTip {
+    border-radius: 5px;
+    border: 1px solid rgb(118, 168, 208);
+    padding: 5px;
+    background-color:rgb(84, 152, 215);
+    color: white;
+}
+
+QTableView, QTreeView {
+    background-color: rgba(255, 253, 252, 125);
+    alternate-background-color: rgba(171, 230, 242, 127);
+    selection-background-color: rgba(84, 152, 215, 210);
+    gridline-color: rgb(118, 168, 208);
+    border-radius: 5px;
+    border: 1px solid rgb(118, 168, 208);
+}
+
+QHeaderView {
+    background: rgba(84, 152, 215, 190);
+}
+
+QHeaderView::section {
+    background: transparent;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-right: 1px solid rgb(118, 168, 208);
+    padding: 4px;
+    font-weight: bold;
+}
+
+QHeaderView::down-arrow {
+    image: url(:/images/sort_down.png);
+    width: 16px;
+    height: 16px;
+    padding-right: 5px;
+}
+
+QHeaderView::up-arrow {
+    image: url(:/images/sort_up.png);
+    width: 16px;
+    height: 16px;
+    padding-right: 5px;
+}
+
+QMenu {
+    background: rgba(204, 215, 217, 255);
+    border: 1px solid rgb(118, 168, 208);
+    border-radius: 8px;
+    padding: 2px;
+}
+
+QMenu::item {
+    background: rgba(204, 215, 217, 255);
+}
+
+QMenu::item:selected {
+    background: rgba(174, 217, 225, 255);
+}
+
+QProgressBar {
+    border: 1px solid rgb(118, 168, 208);
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    margin: 2px;
+    background: transparent;
+}
+
+QProgressBar::chunk {
+    background: rgb(253, 223, 165);
+    border-radius: 8px;
+}
